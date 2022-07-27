@@ -21,5 +21,5 @@ from core.views import front
 urlpatterns = [
     path('admin/', admin.site.urls),
     path("", front, name="front"),
-    re_path(r'^(?:.*)/?$', front),
+   
 ]
